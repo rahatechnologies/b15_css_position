@@ -1,0 +1,50 @@
+/*  multicolumn layout using float */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ div{
+    height: 200px;
+    width: 33.33%;
+    width: 25%;
+    width: 50%;
+    float: left;
+    /* margin:10px; */
+}
+
+p{
+    color: white;
+}
+
+.one {
+    background: red;
+}
+
+.two {
+    background: green;
+}
+
+.three {
+    background: blue;
+}
+
+.four{
+    background: black;
+}
+.five {
+    background: orange;
+    
+}
+.five  p{
+    color: black;
+}
+h1{
+  clear: both;
+}
+
+/* .parent{
+    clear: both;
+} */

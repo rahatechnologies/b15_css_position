@@ -1,0 +1,31 @@
+/* position: static  - default , always positioned according to the normal flow */
+
+
+
+div{
+    background: yellow;
+    border: 3px solid red;
+    margin-top: 50px;
+}
+
+
+.one{
+    background: blue;
+    color: white;
+    position: static;
+}
+.two{
+    background: green;
+    color: white;
+    text-align: left;
+    /* by default css position */
+    
+    position: static;
+
+}
+.special{
+    background: red;
+    color: white;
+    font-size: 20px;
+    /* display: block; */
+}
