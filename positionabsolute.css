@@ -1,13 +1,16 @@
 /* 
-position: relative  - position relative to it's normal position.
-top , bottom, left, right
+
+position:absolute -  relative to the parent with postion: relative
+
+
+
 */
 
 /* position: static  - default , always positioned according to the normal flow */
 
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     /* box-sizing: border-box; */
 
 }
@@ -16,13 +19,17 @@ div {
     background: yellow;
     border: 3px solid red;
     margin-top: 50px;
+    position: relative;
 }
 
 
 .one {
     background: blue;
     color: white;
-    /* position: static; */
+    position: absolute;
+    top: 100px;
+    left: 0;
+
 }
 
 .two {
@@ -30,22 +37,14 @@ div {
     color: white;
     position: relative;
 
-    /* top: 200px; */
-bottom: 100px;
-/* left: 20%; */
-
-right: 40px;
-
-    /* text-align: right; */
-    /* by default css position */
-
-    /* position: static; */
-
 }
 
 .special {
     background: red;
     color: white;
     font-size: 20px;
-    /* display: block; */
+    position: absolute;
+    top: 0;
+    left: 45%;
+    /* right: 30px; */
 }
