@@ -1,0 +1,32 @@
+/* 
+
+::before  ::after 
+
+content: 
+img 
+
+*/
+
+p::before{
+    /* content: "hello there," ; */
+    content: "" ;
+    font-weight: bold;
+    /* display: block; */
+    background: #222;
+    font-size: 1rem;
+    color: red;
+
+    height: 1rem;
+    width: 1rem;
+}
+p::after{
+    /* content: "warm regards," ; */
+    content: "" ;
+    font-weight: bold;
+    display: block;
+    background: #222;
+    font-size: 1rem;
+    color: red;
+     height: 1rem;
+     width: 1rem;
+}
